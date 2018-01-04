@@ -4,8 +4,9 @@
   "description": "Luka Website",
   "main": "index.js",
   "scripts": {
-    "start": "npm run watch",
-    "build": "npm run build:css",
+    "start": "node server.js & npm run watch",
+    "prebuild": "rimraf dist/",
+    "build": "cross-env NODE_ENV=production node ./scripts/build-html.js && npm run build:css",
     "build:css": "cross-env NODE_ENV=production node scripts/postcss.js",
     "watch": "npm run watch:css",
     "watch:css": "chokidar 'src/**/*.pcss' --command 'node scripts/postcss.js'"
@@ -24,15 +25,21 @@
   "homepage": "https://github.com/reinoute/luka-website#readme",
   "devDependencies": {
     "autoprefixer": "7.1.1",
+    "bluebird": "^3.5.1",
     "chokidar-cli": "1.2.0",
     "cross-env": "5.0.0",
     "cssnano": "3.10.0",
+    "express": "^4.16.2",
+    "glob": "^7.1.2",
     "mkdirp": "0.5.1",
+    "nunjucks": "^3.0.1",
+    "path": "^0.12.7",
     "pixrem": "3.0.2",
     "postcss": "6.0.1",
     "postcss-import": "10.0.0",
     "postcss-nested": "2.0.2",
     "postcss-sassy-mixins": "2.1.0",
-    "postcss-simple-vars": "4.0.0"
+    "postcss-simple-vars": "4.0.0",
+    "rimraf": "^2.6.2"
   }
 }

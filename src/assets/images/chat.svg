@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 130 123">
+  <use fill="#0AA6FE" transform="translate(0 1.5)" xlink:href="#path0_fill"/>
+  <g transform="translate(-509 -979)">
+    <mask id="a">
+      <use fill="#FFF" transform="translate(509 980.5)" xlink:href="#path1_fill"/>
+    </mask>
+    <g mask="url(#a)">
+      <use fill="#0AA6FE" transform="translate(225 -1020.5)" xlink:href="#path2_fill"/>
+    </g>
+    <g mask="url(#a)">
+      <use fill="#0AA6FE" transform="translate(504 975.5)" xlink:href="#path3_fill"/>
+    </g>
+  </g>
+  <g transform="translate(-509 -979)">
+    <use fill="#1A285C" transform="translate(513 980.5)" xlink:href="#path4_stroke"/>
+    <mask id="b">
+      <g fill="#FFF" transform="translate(513 980.5)">
+        <use xlink:href="#path5_fill"/>
+        <use xlink:href="#path4_stroke"/>
+      </g>
+    </mask>
+    <g mask="url(#b)">
+      <use fill="#1A285C" transform="translate(508 975.5)" xlink:href="#path6_stroke"/>
+    </g>
+    <g mask="url(#b)">
+      <use fill="#1A285C" transform="translate(229 -1020.5)" xlink:href="#path7_stroke"/>
+    </g>
+  </g>
+  <use fill="#1A285C" transform="translate(4 1.5)" xlink:href="#path8_stroke"/>
+  <use fill="#FFF" transform="translate(35.958 28.04)" xlink:href="#path9_fill"/>
+  <use fill="#1A285C" transform="translate(32.958 31.04)" xlink:href="#path10_stroke"/>
+  <use fill="#1A285C" transform="translate(56.5 52.93)" xlink:href="#path11_stroke"/>
+  <defs>
+    <path id="path0_fill" fill-rule="evenodd" d="M62.5 120c34.518 0 62.5-26.863 62.5-60S97.018 0 62.5 0 0 26.863 0 60s27.982 60 62.5 60z"/>
+    <path id="path1_fill" fill-rule="evenodd" d="M0 60c0 33.136 27.982 60 62.5 60S125 93.136 125 60c0-33.137-27.982-60-62.5-60S0 26.863 0 60z"/>
+    <path id="path2_fill" fill-rule="evenodd" d="M0 3526h1440V0H0v3526z"/>
+    <path id="path3_fill" fill-rule="evenodd" d="M0 130h135V0H0v130z"/>
+    <path id="path4_stroke" d="M-1 60c0 33.726 28.47 61 63.5 61v-2C28.496 119 1 92.546 1 60h-2zm63.5 61c35.03 0 63.5-27.274 63.5-61h-2c0 32.546-27.496 59-61.5 59v2zM126 60c0-33.727-28.47-61-63.5-61v2C96.504 1 124 27.453 124 60h2zM62.5-1C27.47-1-1 26.273-1 60h2C1 27.453 28.496 1 62.5 1v-2z"/>
+    <path id="path5_fill" fill-rule="evenodd" d="M0 60c0 33.136 27.983 60 62.5 60 34.517 0 62.5-26.864 62.5-60 0-33.137-27.983-60-62.5-60C27.983 0 0 26.863 0 60z"/>
+    <path id="path6_stroke" d="M0 130h-.5v.5H0v-.5zm135 0v.5h.5v-.5h-.5zm0-130h.5v-.5h-.5V0zM0 0v-.5h-.5V0H0zm0 130.5h135v-1H0v1zm135.5-.5V0h-1v130h1zM135-.5H0v1h135v-1zM-.5 0v130h1V0h-1z"/>
+    <path id="path7_stroke" d="M0 3526h-.5v.5H0v-.5zm1440 0v.5h.5v-.5h-.5zm0-3526h.5v-.5h-.5V0zM0 0v-.5h-.5V0H0zm0 3526.5h1440v-1H0v1zm1440.5-.5V0h-1v3526h1zM1440-.5H0v1h1440v-1zM-.5 0v3526h1V0h-1z"/>
+    <path id="path8_stroke" d="M62.5 120.5c34.775 0 63-27.068 63-60.5h-1c0 32.842-27.739 59.5-62 59.5v1zm63-60.5c0-33.432-28.225-60.5-63-60.5v1c34.261 0 62 26.658 62 59.5h1zM62.5-.5C27.725-.5-.5 26.568-.5 60h1C.5 27.158 28.239.5 62.5.5v-1zM-.5 60c0 33.432 28.225 60.5 63 60.5v-1C28.239 119.5.5 92.842.5 60h-1z"/>
+    <path id="path9_fill" fill-rule="evenodd" d="M31.625 0C14.159 0 0 13.087 0 29.229c0 6.283 2.151 12.095 5.799 16.861L4.51 51.707 2.783 59.23l7.248-2.654 5.692-2.085c4.673 2.519 10.103 3.968 15.902 3.968 17.466 0 31.625-13.086 31.625-29.23C63.25 13.087 49.091 0 31.625 0z"/>
+    <path id="path10_stroke" d="M5.799 46.09l1.218.28a1.25 1.25 0 0 0-.225-1.04l-.993.76zM4.51 51.707l1.218.28-1.218-.28zM2.783 59.23l-1.218-.28a1.25 1.25 0 0 0 1.648 1.454l-.43-1.174zm7.248-2.654l.43 1.174-.43-1.174zm5.692-2.085l.593-1.1a1.25 1.25 0 0 0-1.023-.074l.43 1.174zM31.625-1.25C13.563-1.25-1.25 12.306-1.25 29.229h2.5c0-15.36 13.505-27.979 30.375-27.979v-2.5zM-1.25 29.229c.02 6.503 2.306 12.699 6.056 17.62l1.986-1.519C3.246 40.72 1.23 35.292 1.25 29.23h-2.5zM4.58 45.81l-1.288 5.617 2.436.56 1.29-5.617-2.437-.56zm-1.288 5.617L1.565 58.95 4 59.51l1.727-7.523-2.436-.56zm-.08 8.977l7.249-2.654-.86-2.348-7.248 2.654.86 2.348zm7.249-2.654l5.692-2.085-.86-2.348-5.692 2.085.86 2.348zm4.669-2.159c4.805 2.58 10.533 4.107 16.495 4.118v-2.5c-5.637.01-10.768-1.36-15.309-3.818l-1.186 2.2zm16.495 4.118c18.062 0 32.875-13.555 32.875-30.48H62c0 15.363-13.505 27.98-30.375 27.98v2.5zM64.5 29.229C64.5 12.306 49.687-1.25 31.625-1.25v2.5C48.495 1.25 62 13.868 62 29.229h2.5z"/>
+    <path id="path11_stroke" d="M6.435 12.066l-.884.884a1.25 1.25 0 0 0 1.768 0l-.884-.884zM-.884 6.515l6.435 6.435 1.768-1.768L.884 4.747-.884 6.515zM7.32 12.95L19.384.884 17.616-.884 5.551 11.182 7.32 12.95z"/>
+  </defs>
+</svg>

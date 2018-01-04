@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 129 121">
+  <g transform="translate(-509 -805)">
+    <use fill="#0AA6FE" transform="translate(509 805.5)" xlink:href="#path0_fill"/>
+    <mask id="a">
+      <use fill="#FFF" transform="translate(509 805.5)" xlink:href="#path1_fill"/>
+    </mask>
+    <g mask="url(#a)">
+      <use fill="#0AA6FE" transform="translate(225 -1195.5)" xlink:href="#path2_fill"/>
+    </g>
+    <g mask="url(#a)">
+      <use fill="#0AA6FE" transform="translate(504 800.5)" xlink:href="#path3_fill"/>
+    </g>
+    <mask id="b">
+      <use fill="#FFF" transform="translate(513 805.5)" xlink:href="#path4_fill"/>
+    </mask>
+    <g mask="url(#b)">
+      <use fill="#1A285C" transform="translate(508 800.5)" xlink:href="#path5_stroke"/>
+    </g>
+    <g mask="url(#b)">
+      <use fill="#1A285C" transform="translate(229 -1195.5)" xlink:href="#path6_stroke"/>
+    </g>
+    <g mask="url(#b)">
+      <use fill="#1A285C" transform="translate(513 805.5)" xlink:href="#path7_stroke"/>
+    </g>
+    <g mask="url(#b)">
+      <use fill="#FFF" transform="translate(541 843.5)" xlink:href="#path8_fill"/>
+    </g>
+    <g mask="url(#b)">
+      <use fill="#1A285C" transform="translate(537.5 849)" xlink:href="#path9_stroke"/>
+    </g>
+    <g mask="url(#b)">
+      <use fill="#1A285C" transform="translate(538.5 849)" xlink:href="#path10_stroke"/>
+    </g>
+    <g mask="url(#b)">
+      <use fill="#1A285C" transform="translate(597.5 849)" xlink:href="#path11_stroke"/>
+    </g>
+    <g mask="url(#b)">
+      <use fill="#1A285C" transform="translate(597.5 877)" xlink:href="#path12_stroke"/>
+    </g>
+    <g mask="url(#b)">
+      <use fill="#1A285C" transform="translate(538.5 877)" xlink:href="#path13_stroke"/>
+    </g>
+    <g mask="url(#b)">
+      <use fill="#1A285C" transform="translate(564.5 860)" xlink:href="#path14_stroke"/>
+    </g>
+  </g>
+  <defs>
+    <path id="path0_fill" fill-rule="evenodd" d="M62.5 120c34.518 0 62.5-26.863 62.5-60S97.018 0 62.5 0 0 26.863 0 60s27.982 60 62.5 60z"/>
+    <path id="path1_fill" fill-rule="evenodd" d="M0 60c0 33.136 27.982 60 62.5 60S125 93.136 125 60c0-33.137-27.982-60-62.5-60S0 26.863 0 60z"/>
+    <path id="path2_fill" fill-rule="evenodd" d="M0 3526h1440V0H0v3526z"/>
+    <path id="path3_fill" fill-rule="evenodd" d="M0 130h135V0H0v130z"/>
+    <path id="path4_fill" fill-rule="evenodd" d="M0 60c0 33.136 27.983 60 62.5 60 34.517 0 62.5-26.864 62.5-60 0-33.137-27.983-60-62.5-60C27.983 0 0 26.863 0 60z"/>
+    <path id="path5_stroke" d="M0 130h-.5v.5H0v-.5zm135 0v.5h.5v-.5h-.5zm0-130h.5v-.5h-.5V0zM0 0v-.5h-.5V0H0zm0 130.5h135v-1H0v1zm135.5-.5V0h-1v130h1zM135-.5H0v1h135v-1zM-.5 0v130h1V0h-1z"/>
+    <path id="path6_stroke" d="M0 3526h-.5v.5H0v-.5zm1440 0v.5h.5v-.5h-.5zm0-3526h.5v-.5h-.5V0zM0 0v-.5h-.5V0H0zm0 3526.5h1440v-1H0v1zm1440.5-.5V0h-1v3526h1zM1440-.5H0v1h1440v-1zM-.5 0v3526h1V0h-1z"/>
+    <path id="path7_stroke" d="M62.5 122c35.545 0 64.5-27.682 64.5-62h-4c0 31.956-27.009 58-60.5 58v4zM127 60c0-34.318-28.955-62-64.5-62v4C95.991 2 123 28.044 123 60h4zM62.5-2C26.955-2-2 25.682-2 60h4C2 28.044 29.009 2 62.5 2v-4zM-2 60c0 34.318 28.955 62 64.5 62v-4C29.009 118 2 91.956 2 60h-4z"/>
+    <path id="path8_fill" fill-rule="evenodd" d="M0 43h72V0H0v43z"/>
+    <path id="path9_stroke" d="M0 41h-1.25v1.25H0V41zm72 0v1.25h1.25V41H72zm0-41h1.25v-1.25H72V0zM0 0v-1.25h-1.25V0H0zm0 42.25h72v-2.5H0v2.5zM73.25 41V0h-2.5v41h2.5zM72-1.25H0v2.5h72v-2.5zM-1.25 0v41h2.5V0h-2.5z"/>
+    <path id="path10_stroke" d="M10.75 0c0 5.937-4.813 10.75-10.75 10.75v2.5c7.317 0 13.25-5.933 13.25-13.25h-2.5z"/>
+    <path id="path11_stroke" d="M-1.25 0c0 7.317 5.933 13.25 13.25 13.25v-2.5C6.063 10.75 1.25 5.937 1.25 0h-2.5z"/>
+    <path id="path12_stroke" d="M1.25 12C1.25 6.063 6.063 1.25 12 1.25v-2.5C4.683-1.25-1.25 4.683-1.25 12h2.5z"/>
+    <path id="path13_stroke" d="M13.25 12C13.25 4.683 7.317-1.25 0-1.25v2.5c5.937 0 10.75 4.813 10.75 10.75h2.5z"/>
+    <path id="path14_stroke" d="M16.75 9A7.75 7.75 0 0 1 9 16.75v2.5c5.661 0 10.25-4.589 10.25-10.25h-2.5zM9 16.75A7.75 7.75 0 0 1 1.25 9h-2.5c0 5.661 4.589 10.25 10.25 10.25v-2.5zM1.25 9A7.75 7.75 0 0 1 9 1.25v-2.5C3.339-1.25-1.25 3.339-1.25 9h2.5zM9 1.25A7.75 7.75 0 0 1 16.75 9h2.5C19.25 3.339 14.661-1.25 9-1.25v2.5z"/>
+  </defs>
+</svg>

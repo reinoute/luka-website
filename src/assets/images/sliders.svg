@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 130 123">
+  <use fill="#0AA6FE" transform="translate(0 1.5)" xlink:href="#path0_fill"/>
+  <g transform="translate(-24 -982)">
+    <mask id="a">
+      <use fill="#FFF" transform="translate(24 983.5)" xlink:href="#path1_fill"/>
+    </mask>
+    <g mask="url(#a)">
+      <use fill="#0AA6FE" transform="translate(-260 -1017.5)" xlink:href="#path2_fill"/>
+    </g>
+    <g mask="url(#a)">
+      <use fill="#0AA6FE" transform="translate(19 978.5)" xlink:href="#path3_fill"/>
+    </g>
+  </g>
+  <g transform="translate(-24 -982)">
+    <mask id="b">
+      <use fill="#FFF" transform="translate(28 983.5)" xlink:href="#path4_fill"/>
+    </mask>
+    <g mask="url(#b)">
+      <use fill="#1A285C" transform="translate(23 978.5)" xlink:href="#path5_stroke"/>
+    </g>
+    <g mask="url(#b)">
+      <use fill="#1A285C" transform="translate(-256 -1017.5)" xlink:href="#path6_stroke"/>
+    </g>
+  </g>
+  <use fill="#1A285C" transform="translate(4 1.5)" xlink:href="#path7_stroke"/>
+  <use fill="#FFF" transform="translate(39 59.5)" xlink:href="#path8_fill"/>
+  <use fill="#FFF" transform="translate(60.5 56)" xlink:href="#path9_fill"/>
+  <use fill="#1A285C" transform="translate(60.5 56)" xlink:href="#path10_stroke"/>
+  <use fill="#FFF" transform="translate(50.5 38.5)" xlink:href="#path11_fill"/>
+  <use fill="#FCFCFC" transform="translate(38 35.5)" xlink:href="#path9_fill"/>
+  <use fill="#1A285C" transform="translate(38 35.5)" xlink:href="#path10_stroke"/>
+  <use fill="#1A285C" transform="translate(50.5 42)" xlink:href="#path12_stroke"/>
+  <use fill="#FFF" transform="translate(39 79.5)" xlink:href="#path13_fill"/>
+  <use fill="#FFF" transform="translate(83.5 76.5)" xlink:href="#path14_fill"/>
+  <use fill="#1A285C" transform="translate(83.5 76.5)" xlink:href="#path15_stroke"/>
+  <use fill="#1A285C" transform="translate(38 83)" xlink:href="#path16_stroke"/>
+  <use fill="#1A285C" transform="translate(74 63)" xlink:href="#path17_stroke"/>
+  <use fill="#1A285C" transform="translate(37 63)" xlink:href="#path17_stroke"/>
+  <defs>
+    <path id="path0_fill" fill-rule="evenodd" d="M62.5 120c34.518 0 62.5-26.863 62.5-60S97.018 0 62.5 0 0 26.863 0 60s27.982 60 62.5 60z"/>
+    <path id="path1_fill" fill-rule="evenodd" d="M0 60c0 33.136 27.982 60 62.5 60S125 93.136 125 60c0-33.137-27.982-60-62.5-60S0 26.863 0 60z"/>
+    <path id="path2_fill" fill-rule="evenodd" d="M0 3526h1440V0H0v3526z"/>
+    <path id="path3_fill" fill-rule="evenodd" d="M0 130h135V0H0v130z"/>
+    <path id="path4_fill" fill-rule="evenodd" d="M0 60c0 33.136 27.983 60 62.5 60 34.517 0 62.5-26.864 62.5-60 0-33.137-27.983-60-62.5-60C27.983 0 0 26.863 0 60z"/>
+    <path id="path5_stroke" d="M0 130h-.5v.5H0v-.5zm135 0v.5h.5v-.5h-.5zm0-130h.5v-.5h-.5V0zM0 0v-.5h-.5V0H0zm0 130.5h135v-1H0v1zm135.5-.5V0h-1v130h1zM135-.5H0v1h135v-1zM-.5 0v130h1V0h-1z"/>
+    <path id="path6_stroke" d="M0 3526h-.5v.5H0v-.5zm1440 0v.5h.5v-.5h-.5zm0-3526h.5v-.5h-.5V0zM0 0v-.5h-.5V0H0zm0 3526.5h1440v-1H0v1zm1440.5-.5V0h-1v3526h1zM1440-.5H0v1h1440v-1zM-.5 0v3526h1V0h-1z"/>
+    <path id="path7_stroke" d="M62.5 121c35.031 0 63.5-27.273 63.5-61h-2c0 32.547-27.495 59-61.5 59v2zM126 60c0-33.727-28.469-61-63.5-61v2C96.505 1 124 27.453 124 60h2zM62.5-1C27.469-1-1 26.273-1 60h2C1 27.453 28.495 1 62.5 1v-2zM-1 60c0 33.727 28.469 61 63.5 61v-2C28.495 119 1 92.547 1 60h-2z"/>
+    <path id="path8_fill" fill-rule="evenodd" d="M0 4h60V0H0v4z"/>
+    <path id="path9_fill" fill-rule="evenodd" d="M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+    <path id="path10_stroke" d="M11.75 6.5c0 2.9-2.35 5.25-5.25 5.25v2.5a7.75 7.75 0 0 0 7.75-7.75h-2.5zM6.5 11.75A5.25 5.25 0 0 1 1.25 6.5h-2.5a7.75 7.75 0 0 0 7.75 7.75v-2.5zM1.25 6.5c0-2.9 2.35-5.25 5.25-5.25v-2.5A7.75 7.75 0 0 0-1.25 6.5h2.5zM6.5 1.25c2.9 0 5.25 2.35 5.25 5.25h2.5A7.75 7.75 0 0 0 6.5-1.25v2.5z"/>
+    <path id="path11_fill" fill-rule="evenodd" d="M0 4h48.5V0H0v4z"/>
+    <path id="path12_stroke" d="M0 1.25h46v-2.5H0v2.5z"/>
+    <path id="path13_fill" fill-rule="evenodd" d="M0 4h53V0H0v4z"/>
+    <path id="path14_fill" fill-rule="evenodd" d="M0 6.5a6.5 6.5 0 1 1 13 0 6.5 6.5 0 0 1-13 0z"/>
+    <path id="path15_stroke" d="M1.25 6.5c0-2.9 2.35-5.25 5.25-5.25v-2.5A7.75 7.75 0 0 0-1.25 6.5h2.5zM6.5 1.25c2.9 0 5.25 2.35 5.25 5.25h2.5A7.75 7.75 0 0 0 6.5-1.25v2.5zm5.25 5.25c0 2.9-2.35 5.25-5.25 5.25v2.5a7.75 7.75 0 0 0 7.75-7.75h-2.5zM6.5 11.75A5.25 5.25 0 0 1 1.25 6.5h-2.5a7.75 7.75 0 0 0 7.75 7.75v-2.5z"/>
+    <path id="path16_stroke" d="M46-1.25H0v2.5h46v-2.5z"/>
+    <path id="path17_stroke" d="M0 1.25h23v-2.5H0v2.5z"/>
+  </defs>
+</svg>

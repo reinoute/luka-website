@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 130 123">
+  <use fill="#0AA6FE" transform="translate(0 1.5)" xlink:href="#path0_fill"/>
+  <g transform="translate(-509 -625)">
+    <mask id="a">
+      <use fill="#FFF" transform="translate(509 626.5)" xlink:href="#path1_fill"/>
+    </mask>
+    <g mask="url(#a)">
+      <use fill="#0AA6FE" transform="translate(225 -1374.5)" xlink:href="#path2_fill"/>
+    </g>
+    <g mask="url(#a)">
+      <use fill="#0AA6FE" transform="translate(504 621.5)" xlink:href="#path3_fill"/>
+    </g>
+  </g>
+  <g transform="translate(-509 -625)">
+    <mask id="b">
+      <use fill="#FFF" transform="translate(513 626.5)" xlink:href="#path4_fill"/>
+    </mask>
+    <g mask="url(#b)">
+      <use fill="#1A285C" transform="translate(508 621.5)" xlink:href="#path5_stroke"/>
+    </g>
+    <g mask="url(#b)">
+      <use fill="#1A285C" transform="translate(229 -1374.5)" xlink:href="#path6_stroke"/>
+    </g>
+  </g>
+  <use fill="#1A285C" transform="translate(4 1.5)" xlink:href="#path7_stroke"/>
+  <use fill="#FFF" transform="translate(35.792 28.5)" xlink:href="#path8_fill"/>
+  <use fill="#1A285C" transform="translate(33.958 31.25)" xlink:href="#path9_stroke"/>
+  <use fill="#1A285C" transform="translate(65.826 54.5)" xlink:href="#path10_stroke"/>
+  <use fill="#1A285C" transform="translate(66 36)" xlink:href="#path11_stroke"/>
+  <use fill="#1A285C" transform="translate(66.5 83.5)" xlink:href="#path11_stroke"/>
+  <use fill="#1A285C" transform="translate(81.099 43.512)" xlink:href="#path12_stroke"/>
+  <use fill="#1A285C" transform="translate(47.865 77.453)" xlink:href="#path12_stroke"/>
+  <use fill="#1A285C" transform="translate(87.5 62)" xlink:href="#path13_stroke"/>
+  <use fill="#1A285C" transform="translate(40 62.5)" xlink:href="#path13_stroke"/>
+  <use fill="#1A285C" transform="translate(81.452 77.1)" xlink:href="#path14_stroke"/>
+  <use fill="#1A285C" transform="translate(47.511 43.865)" xlink:href="#path14_stroke"/>
+  <defs>
+    <path id="path0_fill" fill-rule="evenodd" d="M62.5 120c34.518 0 62.5-26.863 62.5-60S97.018 0 62.5 0 0 26.863 0 60s27.982 60 62.5 60z"/>
+    <path id="path1_fill" fill-rule="evenodd" d="M0 60c0 33.136 27.982 60 62.5 60S125 93.136 125 60c0-33.137-27.982-60-62.5-60S0 26.863 0 60z"/>
+    <path id="path2_fill" fill-rule="evenodd" d="M0 3526h1440V0H0v3526z"/>
+    <path id="path3_fill" fill-rule="evenodd" d="M0 130h135V0H0v130z"/>
+    <path id="path4_fill" fill-rule="evenodd" d="M0 60c0 33.136 27.983 60 62.5 60 34.517 0 62.5-26.864 62.5-60 0-33.137-27.983-60-62.5-60C27.983 0 0 26.863 0 60z"/>
+    <path id="path5_stroke" d="M0 130h-.5v.5H0v-.5zm135 0v.5h.5v-.5h-.5zm0-130h.5v-.5h-.5V0zM0 0v-.5h-.5V0H0zm0 130.5h135v-1H0v1zm135.5-.5V0h-1v130h1zM135-.5H0v1h135v-1zM-.5 0v130h1V0h-1z"/>
+    <path id="path6_stroke" d="M0 3526h-.5v.5H0v-.5zm1440 0v.5h.5v-.5h-.5zm0-3526h.5v-.5h-.5V0zM0 0v-.5h-.5V0H0zm0 3526.5h1440v-1H0v1zm1440.5-.5V0h-1v3526h1zM1440-.5H0v1h1440v-1zM-.5 0v3526h1V0h-1z"/>
+    <path id="path7_stroke" d="M62.5 121c35.031 0 63.5-27.273 63.5-61h-2c0 32.547-27.495 59-61.5 59v2zM126 60c0-33.727-28.469-61-63.5-61v2C96.505 1 124 27.453 124 60h2zM62.5-1C27.469-1-1 26.273-1 60h2C1 27.453 28.495 1 62.5 1v-2zM-1 60c0 33.727 28.469 61 63.5 61v-2C28.495 119 1 92.547 1 60h-2z"/>
+    <path id="path8_fill" fill-rule="evenodd" d="M63.25 31.625c0 17.466-14.159 31.625-31.625 31.625S0 49.091 0 31.625 14.159 0 31.625 0 63.25 14.159 63.25 31.625z"/>
+    <path id="path9_stroke" d="M62 31.625C62 48.401 48.4 62 31.625 62v2.5C49.781 64.5 64.5 49.781 64.5 31.625H62zM31.625 62C14.849 62 1.25 48.4 1.25 31.625h-2.5c0 18.156 14.719 32.875 32.875 32.875V62zM1.25 31.625c0-16.776 13.6-30.375 30.375-30.375v-2.5C13.469-1.25-1.25 13.469-1.25 31.625h2.5zM31.625 1.25C48.401 1.25 62 14.85 62 31.625h2.5C64.5 13.469 49.781-1.25 31.625-1.25v2.5z"/>
+    <path id="path10_stroke" d="M0 9.167h-1.25v1.25H0v-1.25zM-1.25 0v9.167h2.5V0h-2.5zM0 10.417h5.931v-2.5H0v2.5z"/>
+    <path id="path11_stroke" d="M-1.25 0v5h2.5V0h-2.5z"/>
+    <path id="path12_stroke" d="M2.652-.884L-.884 2.651.884 4.419 4.42.884 2.652-.884z"/>
+    <path id="path13_stroke" d="M5-1.25H0v2.5h5v-2.5z"/>
+    <path id="path14_stroke" d="M4.42 2.651L.884-.884-.884.884l3.536 3.535L4.42 2.651z"/>
+  </defs>
+</svg>
