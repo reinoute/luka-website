@@ -8,7 +8,7 @@ const postcss = require('postcss');
 
 const inputFilename = 'src/index.pcss';
 const outputDir = 'dist/';
-const outputFilename = 'dist/index.css';
+const outputFilename = 'dist/assets/index.css';
 
 const processors = [
     require('postcss-import'),              // combine imports into one file

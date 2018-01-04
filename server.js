@@ -19,6 +19,6 @@ app.get('/:view', function (req, res) {
 });
 
 app.use('/assets', express.static('src/assets'));
-app.use('index.css', express.static('dist/index.css'));
+app.use('/assets/index.css', express.static('dist/assets/index.css'));
 
 app.listen(port);
