@@ -7,7 +7,7 @@ const postcss = require('postcss');
 // configure input, output and processors:
 
 const inputFilename = 'src/index.pcss';
-const outputDir = 'dist/';
+const outputDir = 'dist/assets/';
 const outputFilename = 'dist/assets/index.css';
 
 const processors = [
