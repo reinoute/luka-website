@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server.js & npm run watch",
     "prebuild": "rimraf dist/",
-    "build": "cross-env NODE_ENV=production node ./scripts/build-html.js && npm run build:css",
+    "build": "cross-env NODE_ENV=production node ./scripts/build-html.js && npm run build:css && npm run build:assets",
+    "build:assets": "ncp src/assets/ dist/assets/",
     "build:css": "cross-env NODE_ENV=production node scripts/postcss.js",
     "watch": "npm run watch:css",
     "watch:css": "chokidar 'src/**/*.pcss' --command 'node scripts/postcss.js'"
@@ -32,6 +33,7 @@
     "express": "^4.16.2",
     "glob": "^7.1.2",
     "mkdirp": "0.5.1",
+    "ncp": "^2.0.0",
     "nunjucks": "^3.0.1",
     "path": "^0.12.7",
     "pixrem": "3.0.2",
