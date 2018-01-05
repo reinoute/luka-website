@@ -62,22 +62,25 @@
       display: flex;
       justify-content: space-between;
       margin-bottom: $margin-large * 3;
-
-      &:first-of-type {
-
-        .index-panel-text {
-          display: flex;
-          justify-content: center;
-          flex-direction: column;
-
-        }
-      }
     }
 
     &-panel-text,
     &-panel-img {
       position: relative;
       width: 45%;
+    }
+
+    &-panel-text {
+
+      &.is-centered {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+
+      &.is-swapped {
+        order: 1;
+      }
     }
   }
 }
