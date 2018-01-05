@@ -6,17 +6,13 @@ const postcss = require('postcss');
 
 // configure input, output and processors:
 
-const inputFilename = 'src/index.pcss';
+const inputFilename = 'dist/assets/index.pcss';
 const outputDir = 'dist/assets/';
 const outputFilename = 'dist/assets/index.css';
 
 const processors = [
-    require('postcss-import'),              // combine imports into one file
-    require('postcss-sassy-mixins'),        // sass-like mixins
-    require('postcss-simple-vars'),         // sass-like variables
-    require('postcss-nested'),              // unwrap nested rules like how Sass does it
-    require('pixrem'),                      // adds pixel fallback before every rem value
-    require('autoprefixer')                 // vendor prefix for older browsers
+    require('pixrem'),       // adds pixel fallback before every rem value
+    require('autoprefixer')  // vendor prefix for older browsers
 ];
 
 if (process.env.NODE_ENV === 'production') {

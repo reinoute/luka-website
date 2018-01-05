@@ -19,12 +19,10 @@ Run `npm run build` to generate a production build (minified CSS and JS with sou
 
 ## CSS
 
-CSS located in `src/index.css` is processed using [PostCSS](https://github.com/postcss/postcss). Next to [autoprefixing](https://github.com/postcss/autoprefixer) and compression (with [css-nano](http://cssnano.co/)) the following PostCSS plugins are used:
+CSS is processed in 2 steps. In the first step, SASS located in `src/index.scss` is processed using [node-sass](https://github.com/sass/node-sass) to allow for features such as nesting, variables, mixins and includes. SASS output is located in `dist/index.pcss`.
 
-* [postcss-nested](https://github.com/postcss/postcss-nested): unwrap nested rules like how Sass does it
-* [postcss-import](https://github.com/postcss/postcss-import): inline import rules content
-* [postcss-sassy-mixins](https://github.com/andyjansson/postcss-sassy-mixins): SASS style mixins
-* [postcss-simple-vars](https://github.com/postcss/postcss-simple-vars): SASS style variables
-* [postcss-pixrem](https://github.com/robwierzbowski/node-pixrem): generate pixel fallbacks for rem units
+In the second step, [PostCSS](https://github.com/postcss/postcss) picks up the SASS output and adds vendor prefixes (using [autoprefixing](https://github.com/postcss/autoprefixer)) and pixel fallbacks for rem-units ([postcss-pixrem](https://github.com/robwierzbowski/node-pixrem)). PostCSS output is located in `dist/index.css`.  
 
-PostCSS output is located in `dist/index.css`.  
+When generating a production build (using `npm run build`), PostCSS also compresses the output using [css-nano](http://cssnano.co/).
+
+
