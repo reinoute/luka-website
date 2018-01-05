@@ -10,7 +10,8 @@ Public website for Luka.
 
 1. Clone the repository (e.g. to `/src/luka-website/`).
 1. Run `npm install` to install front-end tooling dependencies.
-1. Run `npm start` to watch for CSS changes.
+1. Run `npm run build` to generate CSS for the first time.
+1. Run `npm start` to watch for HTML/CSS changes.
 1. Navigate to [localhost:5852](http://localhost:5852) (`luka` in T9) to view the homepage.
 
 ## Preparing production build
