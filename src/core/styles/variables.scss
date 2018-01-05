@@ -1,0 +1,39 @@
+$red: #cf2929;
+$black: #333333;
+
+$grey-darkest: #2A3435;
+$grey-darker: #4A4A4A;
+$grey-dark: #9b9da2;
+$grey: #cbced3;
+$grey-lighter: #e4e6eb;
+$grey-lightest: #f1f1f1;
+
+$heading-font: 'Amiri', serif;
+$heading-font-color: $grey-darkest;
+
+$body-font: 'Lato', sans-serif;
+$body-font-color: $grey-darker;
+$body-line-height: 1.5;
+
+$margin-small: 8px;
+$margin-default: 16px;
+$margin-large: 32px;
+
+$padding-small: 8px;
+$padding-default: 16px;
+$padding-large: 32px;
+
+$border-radius-default: 4px;
+
+$box-shadow-default: 0 0 4px 0 rgba(0,0,0,0.30);
+
+$form-element-height: 3rem;
+
+$container-width: 1170px;
+
+/* media queries */
+$media-xs: 375px;
+$media-s: 500px;
+$media-m: 768px;
+$media-l: 1024px;
+$media-xl: 1170px;

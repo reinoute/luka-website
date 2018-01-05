@@ -1,7 +1,14 @@
-body {
-  color: red;
-}
+/* core styles - list by loading order */
+@import "core/styles/variables";
+@import "core/styles/mixins";
+@import "core/styles/layout";
+@import "core/styles/misc";
+@import "core/styles/typography";
 
-p {
-  color: blue;
-}
+/* component styles - list by loading order */
+@import "components/footer/footer";
+
+/* view styles - list by loading order */
+@import "views/index/index";
+
+

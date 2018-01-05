@@ -1,0 +1,54 @@
+input,
+textarea {
+  margin: 0; /* Remove the margin in Firefox and Safari. */
+  font-family: $body-font;
+  font-size: 100%;
+  line-height: inherit;
+  background-color: white;
+  border: 1px solid $grey;
+  border-radius: 0;
+  font-weight: normal;
+
+  &:disabled,
+  &[disabled],
+  &[readonly] {
+    background: $grey-lighter;
+    /* iOS fix for unreadable disabled content */
+    opacity: 1;
+  }
+
+  &[aria-invalid="true"] {
+    border-color: $red;
+  }
+
+  &:hover,
+  &:focus {
+    border-color: $grey-dark;
+  }
+}
+
+input {
+  height: $form-element-height;
+  padding: 0.5rem;
+  overflow: visible; /* Show the overflow in Edge. */
+}
+
+textarea {
+  overflow: auto; /* Remove the default vertical scrollbar in IE. */
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  min-height: 0;
+}
+
+legend {
+  padding: 0;
+  display: table;
+}
+
+label {
+  font-weight: bold;
+}
