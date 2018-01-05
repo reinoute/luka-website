@@ -1,3 +1,72 @@
-footer[role="contentinfo"] {
-  background: yellow;
+.footer {
+  padding: $padding-large $padding-default;
+  background-color: $blue;
+  color: white;
+
+  &-panel {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  &-title {
+    @include h4();
+    color: white;
+  }
+
+  &-form {
+    max-width: 350px;
+  }
+
+  &-icon {
+    width: 2rem;
+  }
+
+  a {
+    color: white;
+
+    &:visited {
+      color: white;
+    }
+
+    &:hover {
+      color: $grey-lightest;
+    }
+  }
+
+  &-panel {
+    margin-bottom: $margin-large;
+  }
+
+  &-input {
+    width: 100%;
+    margin-bottom: $margin-default;
+  }
+
+  @media (min-width: $media-xs) {
+
+    &-form {
+      display: flex;
+    }
+
+    &-input {
+      margin-right: $margin-small;
+    }
+  }
+
+  @media (min-width: $media-m) {
+
+    & {
+      display: flex;
+    }
+
+    &-panel {
+      max-width: 300px;
+      margin-top: 56px;
+      margin-bottom: 56px;
+
+      &:first-of-type {
+        order: 1;
+      }
+    }
+  }
 }

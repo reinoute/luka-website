@@ -1,4 +1,5 @@
 .button-blue,
+.button-white,
 [role="button"] {
   display: inline-block; /* required for styling <a> as button */
   height: $form-element-height;
@@ -40,7 +41,8 @@
   }
 }
 
-button.button-blue {
+button.button-blue,
+button.button-white {
   -webkit-appearance: button; /* Correct the inability to style clickable types in iOS and Safari. */
 }
 
@@ -58,6 +60,23 @@ button.button-blue {
   &:focus {
     background-color: $blue-dark;
     color: white;
+  }
+}
+
+.button-white {
+  background-color: white;
+  color: $blue;
+
+  /* for <a> styled as button */
+  &:visited {
+    background-color: white;
+    color: $blue;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $grey-lightest;
+    color: $blue;
   }
 }
 
