@@ -1,5 +1,3 @@
-.button-green,
-.button-orange,
 .button-blue,
 [role="button"] {
   display: inline-block; /* required for styling <a> as button */
@@ -8,7 +6,7 @@
   padding: 0 1em;
   border: 1px solid transparent;
   border-radius: $border-radius-default;
-  box-shadow: 0 2px 0 0 $blue;
+  box-shadow: 0 0 4px 0 rgba(0,0,0,0.30);
   font-family: $body-font;
   font-size: 1rem;
   font-weight: normal;
@@ -42,7 +40,7 @@
   }
 }
 
-button.button-green {
+button.button-blue {
   -webkit-appearance: button; /* Correct the inability to style clickable types in iOS and Safari. */
 }
 
@@ -52,13 +50,13 @@ button.button-green {
 
   /* for <a> styled as button */
   &:visited {
-    background-color: $blue;
+    background-color: $blue-dark;
     color: white;
   }
 
   &:hover,
   &:focus {
-    background-color: $blue;
+    background-color: $blue-dark;
     color: white;
   }
 }

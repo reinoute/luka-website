@@ -21,7 +21,7 @@
   }
 
   &-title {
-    @include h3();
+    @include h4();
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -29,6 +29,10 @@
   &-panel-text {
     max-width: 400px;
     margin: 0 auto;
+  }
+
+  &-anchor-cta {
+    width: 200px;
   }
 
   &-intro-image {
@@ -48,10 +52,75 @@
     max-width: 550px;
   }
 
+  &-features-section {
+    margin-bottom: 75px;
+    text-align: center;
+  }
+
+  &-features-title {
+    @include h4();
+    margin-bottom: $margin-large;
+  }
+
+  &-feature-list {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: $margin-large;
+    list-style: none;
+    padding-left: 0;
+  }
+
+  &-feature-item {
+    margin-bottom: $margin-default;
+    position: relative; /* for absolute position of $-feature-item-img */
+    padding-left: 50px + $margin-default;
+    text-align: left;
+  }
+
+  &-feature-item-img {
+    width: 50px;
+    position: absolute;
+    left: 0;
+  }
+
+  &-feature-item-title {
+    @include h5();
+    margin-bottom: $margin-small;
+    color: $grey-darker;
+    font-weight: bold;
+  }
+
+  &-cta-title {
+    @include h4();
+    margin-bottom: $margin-default;
+  }
+
   @media (min-width: $media-s) {
+
+    &-title {
+      @include h3();
+    }
 
     &-intro-image {
       background-size: 65%;
+    }
+
+    &-features-title {
+      @include h3();
+    }
+
+    &-feature-item {
+      padding-left: 75px + $margin-default;
+    }
+
+    &-feature-item-img {
+        width: 75px;
+    }
+
+    &-cta-title {
+      @include h3();
+      margin-bottom: $margin-default;
     }
   }
 
@@ -59,9 +128,12 @@
 
     &-section {
       max-width: none;
-      display: flex;
-      justify-content: space-between;
       margin-bottom: $margin-large * 3;
+
+      &.is-two-column {
+        display: flex;
+        justify-content: space-between;
+      }
     }
 
     &-panel-text,
@@ -81,6 +153,32 @@
       &.is-swapped {
         order: 1;
       }
+    }
+
+    &-features-title {
+      margin-bottom: 75px;
+    }
+
+    &-feature-list {
+      max-width: 975px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    &-feature-item {
+      width: calc(50% - #{$margin-default});
+      max-width: 375px;
+      margin-bottom: 48px;
+      padding-left: 125px + $margin-default;
+
+      &:nth-of-type(odd) {
+        margin-right: $margin-large;
+      }
+    }
+
+    &-feature-item-img {
+      width: 125px;
     }
   }
 }
