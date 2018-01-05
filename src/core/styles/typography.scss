@@ -38,7 +38,7 @@ body {
 /* first, define the heading styles as mixins */
 @mixin heading() {
   font-family: $heading-font;
-  font-weight: normal;
+  font-weight: bold;
   color: $heading-font-color;
 }
 
