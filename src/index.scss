@@ -1,11 +1,13 @@
 /* core styles - list by loading order */
 @import "core/styles/variables";
 @import "core/styles/mixins";
+@import "core/styles/buttons-links";
 @import "core/styles/layout";
 @import "core/styles/misc";
 @import "core/styles/typography";
 
 /* component styles - list by loading order */
+@import "components/header/header";
 @import "components/footer/footer";
 
 /* view styles - list by loading order */

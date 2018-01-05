@@ -26,5 +26,72 @@
 }
 
 body {
-  font-family: 'Rubik', sans-serif;
+  font-family: $body-font;
+  font-size: 100%; /* browser's font-size setting */
+  line-height: $body-line-height;
+  color: $body-font-color;
+  font-feature-settings: "kern", "liga";
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+/* first, define the heading styles as mixins */
+@mixin heading() {
+  font-family: $heading-font;
+  font-weight: normal;
+  color: $heading-font-color;
+}
+
+@mixin h1() {
+  @include heading();
+  font-size: 2rem;
+}
+
+@mixin h2() {
+  @include heading();
+  font-size: 1.75rem;
+}
+
+@mixin h3() {
+  @include heading();
+  font-size: 1.5rem;
+}
+
+@mixin h4() {
+  @include heading();
+  font-size: 1.25rem;
+}
+
+@mixin h5() {
+  @include heading();
+  font-size: 1.125rem;
+}
+
+@mixin h6() {
+  @include heading();
+  font-size: 1rem;
+}
+
+h1 {
+  @include h1();
+}
+
+h2 {
+  @include h2();
+}
+
+h3 {
+  @include h3();
+}
+
+h4 {
+  @include h4();
+}
+
+h5 {
+  @include h5();
+}
+
+h6 {
+  @include h6();
 }

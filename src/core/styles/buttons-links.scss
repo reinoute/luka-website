@@ -46,53 +46,19 @@ button.button-green {
   -webkit-appearance: button; /* Correct the inability to style clickable types in iOS and Safari. */
 }
 
-.button-green {
-  background-color: $blue-light;
+.button-blue {
+  background-color: $blue;
   color: white;
 
   /* for <a> styled as button */
   &:visited {
-    background-color: $blue-light;
+    background-color: $blue;
     color: white;
   }
 
   &:hover,
   &:focus {
     background-color: $blue;
-    color: white;
-  }
-}
-
-.button-orange {
-    background-color: $orange;
-    color: white;
-
-    /* for <a> styled as button */
-    &:visited {
-      background-color: $orange;
-      color: white;
-    }
-
-    &:hover,
-    &:focus {
-      background-color: $orange-dark;
-      color: white;
-    }
-}
-
-.button-blue {
-  background-color: $ocean-blue;
-  color: white;
-
-  /* for <a> styled as button */
-  &:visited {
-    background-color: $ocean-blue;
-    color: white;
-  }
-
-  &:hover,
-  &:focus {
-    background-color: $ocean-blue-dark;
     color: white;
   }
 }
@@ -109,7 +75,7 @@ button.button-green {
   cursor: pointer;
 
   &:hover {
-    color: $blue-darker;
+    color: $blue;
   }
 }
 
@@ -126,53 +92,6 @@ a {
   }
 
   &:hover {
-    color: $blue-darker;
+    color: $blue-dark;
   }
-}
-
-/*
- * Expandable buttons
- */
-
-.button-expand-primary,
-.button-expand-secondary {
-  display: block;
-  width: 100%;
-  margin-bottom: 1px;
-  padding: 1rem;
-  border: 0;
-  font-family: $heading-font;
-  font-size: 1.5rem;
-  text-align: left;
-  font-weight: bold;
-
-  &[aria-expanded] {
-    background-repeat: no-repeat;
-    background-position: right 16px center;
-  }
-
-  &[aria-expanded="true"] {
-    /* find original in assets/images/chevron-down-white.svg */
-    background-image: url(data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2717%27%20height%3D%2710%27%20viewBox%3D%270%200%2017%2010%27%3E%0A%20%20%3Cpath%20fill%3D%27%23fff%27%20stroke%3D%27%23fff%27%20stroke-width%3D%27.5%27%20d%3D%27M15.45%209.64a.31.31%200%200%200%20.47-.41L8.73%201.11a.31.31%200%200%200-.46%200l-7.2%208.12a.31.31%200%201%200%20.48.41L8.5%201.78l6.95%207.86z%27%2F%3E%0A%3C%2Fsvg%3E%0A);
-  }
-
-  &[aria-expanded="false"] {
-    /* find original in assets/images/chevron-up-white.svg */
-    background-image: url(data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2717%27%20height%3D%2710%27%20viewBox%3D%270%200%2017%2010%27%3E%0A%20%20%3Cpath%20fill%3D%27%23fff%27%20stroke%3D%27%23fff%27%20stroke-width%3D%27.5%27%20d%3D%27M1.55%201.1a.31.31%200%201%200-.47.42l7.19%208.12c.12.15.34.15.46%200l7.2-8.12a.31.31%200%201%200-.48-.41L8.5%208.97%201.55%201.1z%27%2F%3E%0A%3C%2Fsvg%3E%0A);
-  }
-}
-
-.button-expand-primary {
-  background-color: white;
-  color: $grey-dark;
-
-  &[aria-expanded="true"] {
-    background-color: $brand-blue;
-    color: white;
-  }
-}
-
-.button-expand-secondary {
-  background-color: $blue-darker;
-  color: white;
 }
