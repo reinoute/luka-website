@@ -10,8 +10,10 @@
     "build:assets": "ncp src/assets/ dist/assets/",
     "prebuild:css": "node-sass --include-path scss src/index.scss dist/assets/index.pcss",
     "build:css": "node scripts/postcss.js",
-    "watch": "npm run watch:css",
-    "watch:css": "chokidar 'src/**/*.scss' --command 'npm run build:css'"
+    "watch": "npm run watch:assets && npm run watch:css && npm run watch:html",
+    "watch:assets": "chokidar 'src/assets/**/*.*' --command 'npm run build:assets'",
+    "watch:css": "chokidar 'src/**/*.scss' --command 'npm run build:css'",
+    "watch:html": "chokidar 'src/**/*.html' --command 'node ./scripts/build-html.js'"
   },
   "repository": {
     "type": "git",
