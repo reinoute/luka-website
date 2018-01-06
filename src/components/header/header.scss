@@ -9,6 +9,7 @@
 
   &-logo {
     width: 75px;
+    vertical-align: middle;
   }
 
   &-list {
@@ -17,17 +18,11 @@
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
-    text-align: right;
   }
 
   &-item {
     display: inline-block;
     vertical-align: middle;
-
-    /* logo */
-    &:first-of-type {
-      float: left;
-    }
 
     &:not(:last-of-type) {
       margin-right: $margin-default;
